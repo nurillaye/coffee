@@ -1,0 +1,22 @@
+.work-plan {
+
+    &__container {
+        padding: 189px 85px 47px 85px;
+        background-color: var(--dark-grey-blue);
+        border-radius: 10px;
+    }
+
+    &-subg {
+        color: var(--light-cream);
+    }
+
+    &::before {
+        content: url(../images/Oval.svg);
+        position: absolute;
+        margin-top: -104px;
+    }
+
+    .work__item-text {
+        color: var(--light-cream);
+    }
+}

@@ -1,0 +1,43 @@
+ 
+ .commit {
+    margin-bottom: 248px;
+
+    &__container {
+        padding: 0px 85px 0px 85px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    
+     &__img {
+        border-radius: 8px;
+    }
+    
+    &__name {
+        margin-bottom: 32px;
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: var(--dark-grey-blue);
+    }
+    
+     &__info {
+        width: 540px;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: var(--dark-grey-blue);
+        opacity: 0.8;
+    }
+    
+}

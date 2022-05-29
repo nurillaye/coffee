@@ -1,0 +1,81 @@
+.volume {
+    margin-bottom: 200px;
+
+    &__container {
+        padding: 0px 85px 0px 85px;
+         
+    }
+     
+    
+     &__subg {
+        margin: auto;
+        margin-bottom: 178px;
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: var(--grey);
+    }
+    
+     &__list::before {
+        content: url(../images/chiziq.svg);
+        width: 750px;
+        position: absolute;
+        margin-top: -101px;
+    }
+    
+     &__list {
+        margin: auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-bottom: 64px;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    
+     
+    
+     &__item::before {
+        content: url(../images/dumaloq.svg);
+        position: absolute;
+        margin-top: -104px;
+    }
+    
+     &__item + &__item {
+        margin-left: 95px;
+    }
+    
+     &__item-number {
+        margin-bottom: 38px;
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: var(--pale-orange);
+    }
+    
+     &__item-subg {
+        width: 255px;
+        margin-bottom: 42px;
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        color: var(--dark-grey-blue);
+    }
+    
+    &__item-text {
+        width: 285px;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: var(--dark-grey-blue);
+    }
+    
+}
