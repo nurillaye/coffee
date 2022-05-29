@@ -16,14 +16,14 @@
   font-family: 'Barlow';
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/barlow-v11-latin-regular.woff2") format("woff2"), url("../fonts/barlow-v11-latin-regular.woff") format("woff");
+  src: local(""), url("../fonts/barlow-v12-latin-regular.woff2") format("woff2"), url("../fonts/barlow-v12-latin-regular.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Barlow';
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/barlow-v11-latin-700.woff2") format("woff2"), url("../fonts/barlow-v11-latin-700.woff") format("woff");
+  src: local(""), url("../fonts/barlow-v12-latin-700.woff2") format("woff2"), url("../fonts/barlow-v12-latin-700.woff") format("woff");
 }
 
 * {
@@ -112,7 +112,6 @@ section {
 
 .header__link {
   font-family: 'Barlow';
-  font-style: normal;
   font-weight: 700;
   font-size: 12px;
   line-height: 15px;
@@ -425,7 +424,7 @@ button:hover {
 }
 
 .choose__item:nth-child(1) .choose__item-wrapper::before {
-  content: url(../images/cofe.svg);
+  content: url(../images/Shape.svg);
 }
 
 .choose__item:nth-child(2) .choose__item-wrapper::before {
@@ -433,7 +432,7 @@ button:hover {
 }
 
 .choose__item:nth-child(3) .choose__item-wrapper::before {
-  content: url(../images/car.svg);
+  content: url(../images/moshina.svg);
 }
 
 .choose__item-wrapper {
@@ -810,5 +809,18 @@ button:hover {
 
 .work-plan .work__item-text {
   color: var(--light-cream);
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    border: 2px solid red;
+    max-width: 689px;
+    width: 100%;
+    padding: 0;
+  }
+  .header {
+    margin-bottom: 54px;
+    padding: 0px 46px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
