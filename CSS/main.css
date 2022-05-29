@@ -134,7 +134,7 @@ section {
 }
 
 .hero__container {
-  background-image: url(/images/Bitmap\ \(3\).png);
+  background-image: url(/images/hero-img.png);
   border-radius: 10px;
   padding: 0px 86px 0px 86px;
 }
@@ -425,7 +425,7 @@ button:hover {
 }
 
 .choose__item:nth-child(1) .choose__item-wrapper::before {
-  content: url(../images/Shape.svg);
+  content: url(../images/cofe.svg);
 }
 
 .choose__item:nth-child(2) .choose__item-wrapper::before {
@@ -433,7 +433,7 @@ button:hover {
 }
 
 .choose__item:nth-child(3) .choose__item-wrapper::before {
-  content: url(../images/moshina.svg);
+  content: url(../images/car.svg);
 }
 
 .choose__item-wrapper {
